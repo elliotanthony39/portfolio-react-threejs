@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/portfolio-react-threejs/static/css/main.b0e9b011.css",
+    "main.js": "/portfolio-react-threejs/static/js/main.f643b3e6.js",
+    "index.html": "/portfolio-react-threejs/index.html",
+    "main.b0e9b011.css.map": "/portfolio-react-threejs/static/css/main.b0e9b011.css.map",
+    "main.f643b3e6.js.map": "/portfolio-react-threejs/static/js/main.f643b3e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0e9b011.css",
+    "static/js/main.f643b3e6.js"
+  ]
+}
