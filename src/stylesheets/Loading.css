@@ -1,0 +1,84 @@
+.loader {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bfe3dd;
+  z-index: 1;
+  position: relative;
+}
+
+.content-load {
+  width: 300px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(255,255,255,0.1);
+  border-radius: 20px;
+  backdrop-filter: blur(25px);
+  box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.25);
+  
+}
+
+.content-load h1 {
+  text-transform: uppercase;
+  -webkit-text-stroke: 0 black;
+}
+.content-load h3 {
+  -webkit-text-stroke: 0 black;
+}
+
+button {
+  width: 95%;
+  border-radius: 50px;
+  font-size: 1em;
+  padding: 10px;
+  background-color: #bfe3dd;
+  margin: 0px 10px;
+}
+
+button:hover {
+  background-color: #fff;
+}
+
+.points {
+  display: flex;
+  justify-content: center;
+}
+
+.point {
+  width: 20px;
+  height: 20px;
+  margin: 40px 10px 0;
+}
+
+.po1 {
+  animation-name: moveone;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.po2 {
+  animation-name: moveone;
+  animation-duration: 0.75s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.po3 {
+  animation-name: moveone;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes moveone {
+  100% {
+    transform: translateY(-40px);
+  }
+}
+
